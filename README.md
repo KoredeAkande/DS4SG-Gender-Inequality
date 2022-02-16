@@ -1,7 +1,5 @@
-DS4SG-Road-Inequality
+DS4SG-Gender-Inequality
 ==============================
-
-In this project, we determine if there is a correlation between road quality and income, using  a deep learning model for road image classification
 
 Project Organization
 ------------
