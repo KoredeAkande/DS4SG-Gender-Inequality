@@ -7,10 +7,14 @@ In this project we explore gender inequality in online job markets with regards 
 Project Process
 ------------
 
-1. Extract data for various occupations from Freelancer.com
-2. Clean and preprocess extracted data (e.g. first name extraction, NA removal, etc.)
-3. Predict gender based on first names
-4. TBC .......
+1. [DONE] Extract data for various occupations (designer, software engineer, copywriter, and accountant) from Freelancer.com
+2. [DONE] Clean and preprocess extracted data (e.g. first name extraction, NA removal, etc.)
+3. [DONE] Predict gender based on first names and images
+4. [DONE] Manually annotate profiles with low confidence predictions from Step 3 via profile
+5. [WIP] Conduct EDA on the data to uncover initial trends and insights
+6. Conduct genetic matching procedure to find close counterfactuals (i.e. same occupation, experience level, location, skills, etc.) differing solely across gender
+7. Analyze pay and job opportunities against counterfactuals to evaluate inequality seemingly based solely on gender 
+8. Present findings in a writeup and other formats (e.g. infographic, dashboard, or Medium article
 
 Project Organization
 ------------
