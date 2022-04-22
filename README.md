@@ -31,25 +31,29 @@ Project Organization
 
 
     ├── LICENSE
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md                  <- The top-level README for developers using this project.
     ├── data
-    │   ├── raw            <- The original, immutable data dump.
-    │   ├── interim        <- Intermediate data that has been cleaned and transformed.
-    │   ├── annotated      <- Annotated data after cleaning and transformation
-    │   └── processed      <- The final, canonical data sets for modeling.
+    |   ├── codebook               <- Codebooks for original and processed dataset
+    |   ├── cities                 <- External dataset on cities in the US
+    │   ├── raw                    <- The original, immutable data dump.
+    |   ├── gender-annotated       <- Outputs from gender annotation - these are the final "original" files before matching-specific preprocessing.
+    |   ├── profile-images         <- Profile images from freelancers from scraping - used to determine gender.
+    │   ├── interim                <- Intermediate data that has been cleaned and transformed.
+    │   ├── annotated              <- Annotated data after cleaning and transformation
+    │   └── processed              <- The final, canonical data sets for modeling.
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models                     <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         and a short `-` delimited description, e.g. `1.0-data-exploration`.                  
+    ├── notebooks                  <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                                 and a short `-` delimited description, e.g. `1.0-data-exploration`.                  
     │
-    ├── references         <- Data dictionaries, codebooks, manuals, and all other explanatory materials.
+    ├── reports                    <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures                <- Generated graphics and figures to be used in reporting
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── requirements.txt           <- The requirements file for reproducing the analysis environment, e.g.
+    │                                 generated with `pip freeze > requirements.txt`
     │
-    └── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-                              generated with `pip freeze > requirements.txt`
+    └── setup.py                   <- The Python setup file that sets up the environment with the required packages (including non-python packages)
 
 Authors
 ------------
